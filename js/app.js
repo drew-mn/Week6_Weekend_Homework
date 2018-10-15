@@ -33,7 +33,6 @@ const createListItem = function (form) {
   const revenue = document.createElement('p');
   revenue.textContent = form.revenue.value;
   listItem.appendChild(revenue);
-
   return listItem;
 }
 
